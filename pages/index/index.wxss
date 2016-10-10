@@ -1,0 +1,50 @@
+/**index.wxss**/
+.allpage {
+ height:100%;
+}
+.allpage .sendmessage {
+  display: flex;
+  flex-direction:row;
+  border:1px solid #aaaaaa;
+}
+.allpage .sendmessage input { 
+  width:80%;
+  height:40px;
+ line-height : 40px ;
+ font-size : 14px ;
+ padding-left:10px;
+}
+.allpage .sendmessage button {
+ border : 1px solid #ffffff ;
+ width : 20% ;
+ height : 40px ;
+ background : #000000 ;
+ color : #ffffff ;
+ line-height : 40px ;
+ font-size : 14px ;
+}
+.allpage .historycon {
+  height: 90%;flex-direction:column;display:flex;
+ border : 1px solid #aaaaaa ;
+ border-top:0px;
+}
+.allpage .history{
+  height: 90%;
+  margin-top:15px;
+ margin:10px;
+ font-size:14px;
+ line-height:40px;
+ word-break:break-all;
+ display: block;
+}
+.allpage .history .textline{
+  padding: 0;
+  width: 90%;
+  height: 100%;
+}
+ .allpage .avatarview {
+  width:10%; 
+}
+ .allpage .textview {
+   width:90% 
+}

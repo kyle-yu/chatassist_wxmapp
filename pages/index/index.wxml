@@ -1,0 +1,11 @@
+<view class="allpage">
+  <view class="historycon" >
+    <scroll-view scroll-y="true" class="history">
+      <text class="textline">{{text}}</text>
+    </scroll-view>
+  </view>
+  <view class="sendmessage">
+    <input id="message" bindinput="bindChange" value="{{bvalue}}"></input>
+    <button bindtap="add">发送</button>
+  </view>
+</view> 
