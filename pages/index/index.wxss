@@ -6,6 +6,7 @@
   display: flex;
   flex-direction:row;
   border:1px solid #aaaaaa;
+  height: 7%;
 }
 .allpage .sendmessage input { 
   width:80%;
@@ -24,9 +25,11 @@
  font-size : 14px ;
 }
 .allpage .historycon {
-  height: 90%;flex-direction:column;display:flex;
- border : 1px solid #aaaaaa ;
- border-top:0px;
+  height: 93%;
+  flex-direction:column;
+  display:flex;
+  border : 1px solid #aaaaaa ;
+  border-top:0px;
 }
 .allpage .history{
   height: 90%;
